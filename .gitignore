@@ -1,5 +1,8 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
+*.pdb
+logs/
+-logs/
 
 ### STS ###
 .apt_generated
@@ -8,10 +11,10 @@ target/
 .project
 .settings
 .springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
+.mvn
 *.iws
 *.iml
 *.ipr
@@ -23,3 +26,10 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+mygen
+
+### mac ###
+.DS_Store
+/src/main/resources/bootstrap.yml
+/.gitignore
+/-logs/
